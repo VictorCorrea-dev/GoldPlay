@@ -133,14 +133,4 @@ Para executar a suíte de testes unitários e de contexto do Spring Boot via ter
      "procedimento": { "id": 1 },
      "consultorio": { "id": 1 }
    }
-   ```
-4. Para validar a regra de conflito de horário, tente enviar uma segunda requisição `POST /agendamentos` no mesmo horário para o mesmo `dentista` ou `consultorio` — a API retornará erro impedindo a sobreposição.
-
----
-
-## 8. Créditos e Recursos Externos Utilizados
-
-* **Spring Framework / Spring Boot:** Utilizado como base estrutural para a API REST, injeção de dependências, validação e persistência de dados ([spring.io](https://spring.io/)).
-* **MySQL Connector/J:** Driver oficial utilizado para comunicação entre a aplicação Java e o banco de dados MySQL.
-* **Google Fonts (Inter / Sans-serif):** Tipografia utilizada na estilização da interface web.
-* **Autoria:** Projeto desenvolvido por **Victor Correa** ([GitHub](https://github.com/VictorCorrea-dev)) para fins acadêmicos.
+   ``
